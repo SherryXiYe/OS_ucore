@@ -1,0 +1,37 @@
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+07F8CA10+07ECCA10 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from Hard Disk..(THU.CST) os is loading ...
+
+Special kernel symbols:
+  entry  0xc0100036 (phys)
+  etext  0xc01062c4 (phys)
+  edata  0xc011c000 (phys)
+  end    0xc011cf28 (phys)
+Kernel executable memory footprint: 116KB
+ebp:0xc0118f38 eip:0xc0100aea arg :0x00010094 0x00010094 0xc0118f68 0xc01000cc
+    kern/debug/kdebug.c:324: print_stackframe+26
+ebp:0xc0118f48 eip:0xc0100de7 arg :0x00000000 0x00000000 0x00000000 0xc0118fb8
+    kern/debug/kmonitor.c:129: mon_backtrace+14
+ebp:0xc0118f68 eip:0xc01000cc arg :0x00000000 0xc0118f90 0xffff0000 0xc0118f94
+    kern/init/init.c:49: grade_backtrace2+37
+ebp:0xc0118f88 eip:0xc01000fa arg :0x00000000 0xffff0000 0xc0118fb4 0x0000002a
+    kern/init/init.c:54: grade_backtrace1+42
+ebp:0xc0118fa8 eip:0xc010011d arg :0x00000000 0xc0100036 0xffff0000 0x0000001d
+    kern/init/init.c:59: grade_backtrace0+27
+ebp:0xc0118fc8 eip:0xc0100147 arg :0xc01062fc 0xc01062e0 0x00000f28 0x00000000
+    kern/init/init.c:64: grade_backtrace+38
+ebp:0xc0118ff8 eip:0xc010008b arg :0xc01064f0 0xc01064f8 0xc0100d63 0xc0106517
+    kern/init/init.c:29: kern_init+84
+memory management: default_pmm_manager
+e820map:
+  memory: 0009fc00, [00000000, 0009fbff], type = 1.
+  memory: 00000400, [0009fc00, 0009ffff], type = 2.
+  memory: 00010000, [000f0000, 000fffff], type = 2.
+  memory: 07ee0000, [00100000, 07fdffff], type = 1.
+  memory: 00020000, [07fe0000, 07ffffff], type = 2.
+  memory: 00040000, [fffc0000, ffffffff], type = 2.
